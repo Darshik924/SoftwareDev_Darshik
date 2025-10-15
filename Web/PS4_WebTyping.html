@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Typing Game</title>
+        <link rel="stylesheet" href="PS4_WebTyping.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div id="main"><a href="javascript:location.reload();" class="typing">WebTyping</a></div>
+            <div id="past">Performance</div>
+            <div id="refresh">Analyse</div>
+        </div><br><br>
+        <div class="Banner">
+            <div id ="banner">
+                <h1>Your daily race against the clock</h1>
+                <h2>Start Typing When Ready</h2>  
+            </div>
+            <div class="disptimer">
+                <div class="timer">Time Remaining:</div>
+                <span class="time">0</span>
+            </div>
+            <div class="para">
+                <p id="sentence"></p>
+            </div>
+            <div class="content">
+                <textarea id="input" name="message" rows="2" cols="70" placeholder="Type Here when the test Starts"></textarea>
+            </div>
+            <div class="start"><button id="start_btn" onclick="startTest()">Start Test</button></div>
+            <div class="analysis">
+                <div class="ana">
+                    <div class="wpm"> WPM(Words per minute) : </div>
+                    <div class="awpm"> 0</div>
+                </div>
+                <div class="ana">
+                    <div class="acc"> Accuray(%) :</div>
+                     <div class="aacc">0</div> 
+                </div>
+                <div class="ana">
+                    <div class="mist">No. of Mistakes : </div>
+                    <span class="amist"> 0</span>
+                </div>
+                <div class="ana">
+                    <div class="grd">Grade Awarded :</div> 
+                    <div class="agrd"> NA</div>
+                </div>
+            </div>
+            <div class="restart"><button class="btn" onclick="startTest()">Try Again!</button></div>
+        </div>
+
+        <script src="PS4_WebTyping.js"></script>
+    </body>
+</html>

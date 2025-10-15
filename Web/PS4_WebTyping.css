@@ -1,0 +1,105 @@
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    color:yellow;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+    font-size: 23px;
+    background-color: rgb(89, 0, 255);
+    height:36px;
+}
+.typing{
+    text-decoration: none;
+    color:yellow;
+}
+body{
+    background-color: whitesmoke;
+}
+.analysis{
+    height:270px;
+    width:500px;
+    margin-left: 490px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.ana{
+    display:flex;
+    font-weight:bold;
+    font-size: 26px;
+    color:red;
+    border: 2px solid rgb(255, 0, 166);
+    padding :9px;
+}
+.btn{
+    font-size: 30px;
+    color:darkgreen;
+    background-color: greenyellow;
+    border-radius: 5%;
+    margin-left: 640px;
+    height:40px;
+    width:220px;
+}
+#banner{
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.para{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(59, 58, 58);
+    margin:0 100px 0 100px;
+}
+.char.success{
+    color:greenyellow;
+}
+.char.fail{
+    color:red;
+}
+.btn:hover{
+    background-color: rgb(4, 199, 4);
+    transition-duration: 0.2s;
+}
+.content{
+    display:flex;
+    justify-content: center;
+}
+#input{
+    height:55px;
+    border: 3px solid black;
+}
+.para{
+    font-size: 20px;
+}
+.disptimer{
+    display:flex;
+    gap :10px;
+    justify-content: center;
+}
+.timer{
+    font-size: 30px;
+    font-weight: bold;
+    color:red;
+
+}
+.time{
+    font-size: 30px;
+    font-weight: bold;
+    color:red;
+}
+.start{
+    display:flex;
+    justify-content: center;
+}
+#start_btn{
+    color:white;
+    background-color: black;
+    border-radius: 10%;
+    width:50px;
+}
+#start_btn:hover{
+    color:rgb(200, 206, 212)
+}
