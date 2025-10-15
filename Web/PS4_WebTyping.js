@@ -25,7 +25,6 @@ let text="";
 let timer=null;
 let time=60;
 let mist=0;
-let timeElapsed=0;
 function renderNew(){
     sents=[];
     for(let i=0;i<10;i++){
